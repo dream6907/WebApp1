@@ -1,5 +1,7 @@
 
-FILEPATH = "todos.txt"
+from pathlib import Path
+
+filepath = Path(__file__).parent / "todos.txt"
 
 
 def get_todos(filepath=FILEPATH):
