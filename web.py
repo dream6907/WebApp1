@@ -18,6 +18,11 @@ import functions
 #   Install the official Streamlit skills by running streamlit
 #   skills in your terminal.
 
+#for Heroku deployment make sure you have the setup.sh and Procfile files
+# and that you generated requirements.txt file with:
+# pip freeze > requirements.tx
+
+
 todos = functions.get_todos()
 
 
